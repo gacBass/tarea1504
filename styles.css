@@ -1,0 +1,47 @@
+body{
+
+    background-color: cadetblue;
+}
+
+.gaston {
+
+    display: flex;
+    gap: 20px; /* esta va para separar los elementos que estan dentro*/
+}
+
+p{
+    border: 3px solid black;
+    padding: 20px;
+    width: 33%;
+    text-align: center;
+
+}
+
+header{
+    text-align: center;
+}
+
+.gastonConetn {
+
+    display: flex
+    ;
+        height: 500px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+}
+
+h6{
+    border: 3px solid black;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.flexrow {
+    flex-grow: 1;
+    order: 2;
+
+}

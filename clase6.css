@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-image: url(images/bass-guitar-6325873_960_720.webp);
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  width: 70%;
+  justify-items: center;
+  z-index: 1;
+
+}
+
+.navbarItem {
+  width: 150px;
+  border: 3px solid rgb(9, 9, 9);
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: rgb(64, 199, 199);
+}
+
+header {
+  display: flex;
+  border: 3px solid black;
+  text-align: center;
+  width: 66%;
+  gap: 20px;
+  justify-content: center;
+  opacity: 0.9;
+  align-content: stretch;
+  align-items: center;
+  box-shadow: 12px 12px 2px 1px rgba(7, 7, 236, 0.2);
+
+}
+
+header div {
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+main div {
+  width: 30.5%;
+  border: 3px solid black;
+  padding: 20px;
+  background-color: rgb(162, 233, 190);
+  opacity: 0.9;
+  box-shadow: 12px 12px 2px 1px rgba(14, 14, 14, 0.2);
+
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  width: 67%;
+  background-color: rgb(224, 230, 170);
+  opacity: 0.9;
+}
+
+.foot {
+  border: 3px solid black;
+  padding: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(21, 21, 20, 0.2);
+
+}
+
+.title {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bungee-spice-regular h3
+ {
+  background-color: blue;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(254, 254, 254);
+}
+
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 250;
+  font-style: normal;
+}
+
+.footer2 {
+  width: 80%;
+  background-color: rgb(45, 49, 87);
+  opacity: 0.9;
+  padding: 50px;
+}
+
+.footer2 p {
+  color: beige;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  gap: 20px;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.contactCard {
+  width: 150px;
+  border: 3px solid rgb(176, 109, 109);
+  padding: 5px;
+  text-align: center;
+  color: rgb(152, 38, 38);
+}
+
+.fixedButton {
+  border: 3px solid rgb(72, 212, 79);
+  padding: 15px;
+  text-align: center;
+  color: rgb(54, 146, 222);
+  position: fixed;
+  margin-top: 41%;
+  margin-left: 87%;
+}
