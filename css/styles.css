@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  background-image: url(images/bass-guitar-6325873_960_720.webp);
+  background-image: url(assets/img/bass.webp);
   background-attachment: fixed;
   background-size: 100%;
   
@@ -48,9 +48,7 @@ header {
 
 }
 
-header div {
-  margin: 20px;
-}
+
 
 main {
   display: flex;
@@ -94,7 +92,7 @@ img {
 }
 .bungee-spice-regular {
   font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }
 
@@ -148,14 +146,41 @@ a {
   text-align: center;
   color: rgb(54, 146, 222);
   position: fixed;
-  margin-top: 41%;
+  margin-top: 550px;
   margin-left: 87%;
 }
 
+.divContacto {
+
+  display: flex;
+  margin: 0 auto;
+  width: 950px;
+  /* Esquema del formulario */
 
 
+}
+.divContacto label {
 
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+.divContacto li {
+  margin: 20px;
 
+}
+.divContacto textarea {
+  width: 700px;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+
+}
 
 
 /* ----------------------      Animaciones como usar ---------------------------------------------------
